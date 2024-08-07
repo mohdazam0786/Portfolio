@@ -33,6 +33,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    link: "https://practice-mern-7bfn.vercel.app/",
   },
   {
     title: "Movy",
@@ -40,6 +41,7 @@ export const PROJECTS = [
     description:
       " Developed a movie app using the React for users to view and manage movie information.",
     technologies: ["HTML", "CSS", "Javascript", "React"],
+    link: "https://movy-flax.vercel.app/"
   },
   {
     title: "Portfolio Website",
@@ -47,6 +49,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind","Javascript"],
+    link: "https://portfolio-p525.vercel.app/"
   },
   {
     title: "Meme Generator",
@@ -54,6 +57,7 @@ export const PROJECTS = [
     description:
       "A Random Meme Generator is a tool that creates humorous memes by randomly selecting from a collection of meme templates and generating text",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    link: "https://meme-generator-azure-one.vercel.app/"
   },
 ];
 

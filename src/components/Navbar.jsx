@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="flex flex-shrink-0 items-center">
         <img className="mx-6 w-20" src={logo} alt="logo" />
       </div>
-      <div className="m-8 flex items-center justify-center gap-6 text-3xl">
+      <div className="m-8 flex items-center justify-center gap-3 text-3xl">
       <a href="https://www.linkedin.com/in/mohd-azam-siddique-953712222/" target="_blank" rel="noopener noreferrer">
         <FaLinkedinIn />
       </a>

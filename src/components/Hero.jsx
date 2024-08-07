@@ -1,7 +1,7 @@
 import { HERO_CONTENT } from "./../constants/index";
 import { motion } from "framer-motion";
 import profilePic from "../assets/profilepic.png";
-
+import '../index.css'
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
   visible: {
@@ -41,8 +41,8 @@ const Hero = () => {
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex justify-center">
+        <div className="w-full  lg:w-1/2 lg:p-8">
+          <div className="box flex justify-center bg-white rounded-3xl border-red-900">
             <motion.img 
             initial={{x:100, opacity:0}}
             animate={{x:0,opacity:1}}
